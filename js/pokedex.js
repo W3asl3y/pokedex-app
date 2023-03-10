@@ -27,8 +27,6 @@ function logic() {
                 return;
             }
 
-            document.getElementById("name").reset();
-
         // Create pokemon object here (const pokemon) using user input Strings
             const pokemon = { name, type, region };
 
